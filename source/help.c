@@ -229,6 +229,8 @@ static const char *getBuildInfo(void)
 {
     static const char *bldFormat =
         "%s\n"
+        " THIS IS AN UNOFFICIAL VERSION OF NEDIT \n"
+        " See: https://github.com/adrian-bl/nedit\n\n"
         "     Built on: %s, %s, %s\n"
         "     Built at: %s, %s\n"
         "   With Motif: %s%d.%d.%d [%s]\n"
